@@ -1,0 +1,19 @@
+{
+  "name": "angular-oauth",
+  "version": "0.1.0",
+  "description": "\"AngularJS plugin for OAuth 1.0a\"",
+  "main": "build/js/angular-oauth.js",
+  "scripts": {
+  },
+  "author": "J Andrew Scott <jascott@programmer.net> (http://rubberchickenfarm.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.9.1"
+  }
+}

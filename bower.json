@@ -1,0 +1,26 @@
+{
+  "name": "angular-oauth",
+  "description": "\"AngularJS plugin for OAuth 1.0a\"",
+  "main": "build/js/angular-oauth.js",
+  "authors": [
+    "J Andrew Scott <jascott@programmer.net> (http://rubberchickenfarm.com)"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "gulpfile.js"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.9",
+    "angular-mocks": "~1.4.9"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.6"
+  }
+}
