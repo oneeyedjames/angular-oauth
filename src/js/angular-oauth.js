@@ -24,7 +24,7 @@ angular.module('angular.plugins.oauth', [])
 	var percentDecode = decodeURIComponent;
 
 	var percentEncode = function(str) {
-		return encodeURIComponent(str).replace(/[!'()*]/g, function(chr) {
+		return ('' + str).replace(/[^a-z0-9-._~]/gi, function(chr) {
 			return '%' + chr.charCodeAt(0).toString(16).toUpperCase();
 		});
 	};
